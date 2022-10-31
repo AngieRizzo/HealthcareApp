@@ -7,6 +7,14 @@ import javafx.scene.control.TextFormatter;
 
 public class Information {
 	
+	//public 
 	
 
+}
+class test{
+	
+	
+	
+	
+	
 }

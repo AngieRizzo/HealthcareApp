@@ -4,7 +4,7 @@ import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextInputControl;
-
+import javafx.scene.control.RadioButton;
 //
 
 
@@ -19,12 +19,33 @@ public class InformationController {
 	Information info;
 	
 	
+	//Declaration of text boxes
+	@FXML private TextField lastNameTextBox;
 	@FXML private TextField firstNameTextBox; 
+	@FXML private TextField streetAddressTextBox;
+	@FXML private TextField cityTextBox;
+	@FXML private TextField stateTextBox;
+	@FXML private TextField zipTextBox;
+	@FXML private TextField phoneNumberTextBox;
+	@FXML private TextField heightFeetTextBox;
+	@FXML private TextField heightInchesTextBox;
+	@FXML private TextField weightTextBox;
+	
+	
+	//declaration of radio buttons
+	@FXML private RadioButton diabeticRB;
+	@FXML private RadioButton cancerRB;
+	@FXML private RadioButton hypertensionRB;
+	@FXML private RadioButton seizureRB;
+	
+	
 	// need to add eventListener for screen size changes on the anchor box
 	
 	public void initialize() {
 		//create new model object
 		 info = new Information();
+		 
+		 // include all model updates. 
 		
 		
 	}
